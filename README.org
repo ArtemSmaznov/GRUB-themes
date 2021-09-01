@@ -1,0 +1,22 @@
+#+TITLE: GRUB Themes
+#+AUTHOR: Artem Smaznov
+
+* Table of Contents :toc:
+- [[#installation][Installation]]
+- [[#screenshots][Screenshots]]
+  - [[#gruvbox][Gruvbox]]
+  - [[#wood][Wood]]
+
+* Installation
+Simply copy the theme folder to =/boot/grub/theme/= and set the =GRUB_THEME= parameter (will update how later as I don't remember the nuances with =grub-customizer=)
+#+begin_src shell
+sudo cp -r GRUB-themes/gruvbox /boot/grub/theme/
+#+end_src
+
+#+begin_src conf
+GRUB_THEME="/boot/grub/themes/gruvbox/theme.txt"
+#+end_src
+
+* TODO Screenshots
+** Gruvbox
+** Wood
