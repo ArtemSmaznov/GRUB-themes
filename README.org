@@ -1,5 +1,7 @@
 #+TITLE: GRUB Themes
 #+AUTHOR: Artem Smaznov
+#+DESCRIPTION: Themes for the GRUB bootloader
+#+STARTUP: overview
 
 * Table of Contents :toc:
 - [[#installation][Installation]]
